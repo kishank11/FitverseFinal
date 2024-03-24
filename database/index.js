@@ -6,7 +6,7 @@ mongoose.Promise = global.Promise;
 // const uri = 'mongodb://localhost/fitverse';
 
 mongoose.set('useFindAndModify', false);
-mongoose.connect(process.env.MONGODB_URI || uri).then(
+mongoose.connect(process.env.MONGODB_URI ).then(
   () => {
     console.log('Connected to Mongo');
   },
