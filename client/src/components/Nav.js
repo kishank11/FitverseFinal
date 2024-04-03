@@ -32,7 +32,7 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <Link className="navbar-brand" to="/">
-          Spartan<span className="text-info">Fit</span>
+          Fit<span className="text-info">Verse</span>
         </Link>
         <button
           className="navbar-toggler"
