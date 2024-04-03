@@ -70,7 +70,7 @@ class Register extends Component {
             <Container fluid>
               <div className="register-wrapper">
                 <h1>
-                  Spartan<span className="text-info">Fit</span>
+                  Fit<span className="text-info">Verse</span>
                 </h1>
                 <Alert
                   show={this.state.show}
